@@ -1,72 +1,13 @@
-[2024-04-12 18:35:01,147: INFO: main: welcome to the log]
-[2024-04-15 21:00:40,206: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:01:24,158: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:01:29,934: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:05:40,803: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:06:43,566: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:07:18,161: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:07:18,165: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:08:19,927: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:08:19,929: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:08:19,931: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:08:19,935: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:09:15,207: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:09:15,209: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:09:15,211: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:09:15,213: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:09:18,606: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:09:18,608: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:09:18,609: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:09:18,611: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:10:00,140: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:10:00,143: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:10:00,144: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:10:00,146: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:13:00,391: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:13:00,394: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:13:00,396: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:13:00,397: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:14:44,315: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:14:44,317: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:14:44,318: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:14:44,320: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:14:45,472: INFO: 2349157261: artifacts/data_ingestion/data.zip download! with following info: 
-Server: GitHub.com
-Date: Mon, 15 Apr 2024 15:44:45 GMT
-Content-Type: text/html; charset=utf-8
-Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"0e4874dbcd39d5de83fe15e75524aa35"
-Cache-Control: max-age=0, private, must-revalidate
-Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-X-Frame-Options: deny
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Referrer-Policy: no-referrer-when-downgrade
-Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com api.githubcopilot.com objects-origin.githubusercontent.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
-Set-Cookie: _gh_sess=WBah8DAFMGpZdjLYLzvUxaq9Ucr6pgilTsTPb4niHQCr%2B2CMWiMevXiAdDOJMfEX0ZF0%2BkOaL3CZ%2F%2BL3977sXSqtykkVpfpXlbhcqJ%2FZd1mTaHXVJ0CJ5sgYcF7CTAFH08crwljLxkrjo8C5HCufaJCYmhwsJ4MHyxvX4XAjeQOtu2iuvyrKBEle%2FqE%2FFxw07rSGwaRo0PffjgXWW6QMxDeE%2BDs%2FJl4sMiSWR%2F%2BR767fAfKEJIOXcEiA5CE%2F9j48L6zMxm29Wp65kAZ8KzXh1g%3D%3D--h8p8ERXgF1EfhMl8--8I0EgLfysi7LIbCgyEANhQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-Set-Cookie: _octo=GH1.1.477201643.1713195884; Path=/; Domain=github.com; Expires=Tue, 15 Apr 2025 15:44:44 GMT; Secure; SameSite=Lax
-Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 15 Apr 2025 15:44:44 GMT; HttpOnly; Secure; SameSite=Lax
-Accept-Ranges: bytes
-Transfer-Encoding: chunked
-X-GitHub-Request-Id: 2773:F5314:3B15C6:3EFBDB:661D4B6C
-connection: close
 
-]
-[2024-04-15 21:18:59,244: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:18:59,247: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:18:59,249: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:18:59,251: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:18:59,252: INFO: 2349157261: File already exists of size: ~ 144 KB]
-[2024-04-15 21:20:26,056: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:20:26,058: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:20:26,060: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:20:26,062: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:20:26,063: INFO: 1854701849: File already exists of size: ~ 144 KB]
-[2024-04-15 21:23:20,719: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 21:23:20,721: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 21:23:20,722: INFO: common: craeted directory at : artifacts]
-[2024-04-15 21:23:20,725: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-15 21:23:30,875: INFO: 2349157261: artifacts/data_ingestion/data.zip download! with following info: 
+[2024-04-16 04:33:04,055: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2024-04-16 04:33:04,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 04:33:04,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts]
+[2024-04-16 04:33:04,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 04:33:04,070: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts]
+[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts/data_ingestion]
+[2024-04-16 04:33:08,989: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 7903594
 Cache-Control: max-age=300
@@ -77,19 +18,20 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: E50C:FD079:59E68:6D2EC:661D4D71
+X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
 Accept-Ranges: bytes
-Date: Mon, 15 Apr 2024 15:53:24 GMT
+Date: Mon, 15 Apr 2024 23:03:06 GMT
 Via: 1.1 varnish
-X-Served-By: cache-maa10250-MAA
+X-Served-By: cache-maa10241-MAA
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1713196402.420674,VS0,VE2067
+X-Timer: S1713222186.744465,VS0,VE705
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: ccb61e7076cb0d83f9c1fe6199baa3f392834afe
-Expires: Mon, 15 Apr 2024 15:58:24 GMT
-Source-Age: 2
+X-Fastly-Request-ID: 9140fd3ab90e1d2816aeee2d0907aeac40b22289
+Expires: Mon, 15 Apr 2024 23:08:06 GMT
+Source-Age: 0
 
 ]
+[2024-04-16 04:33:09,152: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
