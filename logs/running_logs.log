@@ -185,3 +185,59 @@ Source-Age: 195
 [2024-04-16 05:15:30,448: INFO: common: craeted directory at : artifacts]
 [2024-04-16 05:15:30,448: INFO: common: craeted directory at : artifacts/data_validaton]
 [2024-04-16 05:15:30,466: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
+[2024-04-16 05:24:21,804: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 05:26:23,092: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:26:23,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:27:53,545: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:27:53,545: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:27:53,545: INFO: common: craeted directory at : artifacts]
+[2024-04-16 05:27:53,545: INFO: common: craeted directory at : artifacts/data_transformation]
+[2024-04-16 05:35:24,281: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 05:35:24,670: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2024-04-16 05:35:24,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:35:24,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:35:24,670: INFO: common: craeted directory at : artifacts]
+[2024-04-16 05:35:24,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:35:24,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:35:24,683: INFO: common: craeted directory at : artifacts]
+[2024-04-16 05:35:24,684: INFO: common: craeted directory at : artifacts/data_ingestion]
+[2024-04-16 05:35:41,467: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
+Accept-Ranges: bytes
+Date: Tue, 16 Apr 2024 00:05:26 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1713225926.389731,VS0,VE276
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ad0c0619c325b72ee6315eb66f71c5a39e038fce
+Expires: Tue, 16 Apr 2024 00:10:26 GMT
+Source-Age: 0
+
+]
+[2024-04-16 05:35:41,603: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
+[2024-04-16 05:35:41,603: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
+[2024-04-16 05:35:41,603: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:35:41,603: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:35:41,603: INFO: common: craeted directory at : artifacts]
+[2024-04-16 05:35:41,603: INFO: common: craeted directory at : artifacts/data_validaton]
+[2024-04-16 05:35:41,618: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
+[2024-04-16 05:35:41,618: INFO: main: >>>>> stage Data Transformation Stage started <<<<<<<<]
+[2024-04-16 05:35:41,618: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 05:35:41,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 05:35:41,629: INFO: common: craeted directory at : artifacts]
+[2024-04-16 05:35:41,631: INFO: common: craeted directory at : artifacts/data_transformation]
+[2024-04-16 05:35:46,901: INFO: main: >>>>>>>stage Data Transformation Stage completed <><<<<<<<<]
