@@ -241,3 +241,135 @@ Source-Age: 0
 [2024-04-16 05:35:41,629: INFO: common: craeted directory at : artifacts]
 [2024-04-16 05:35:41,631: INFO: common: craeted directory at : artifacts/data_transformation]
 [2024-04-16 05:35:46,901: INFO: main: >>>>>>>stage Data Transformation Stage completed <><<<<<<<<]
+[2024-04-16 19:57:11,667: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 19:59:54,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 19:59:54,770: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 19:59:54,780: INFO: common: craeted directory at : artifacts]
+[2024-04-16 19:59:54,782: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:02:25,151: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:02:25,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:02:25,156: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:02:25,158: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:13:57,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:13:57,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:13:57,869: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:13:57,872: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:17:28,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:17:28,727: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:17:28,734: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:17:28,736: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:18:53,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:18:53,730: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:18:53,736: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:18:53,739: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:21:04,250: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:21:45,907: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:21:45,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:21:45,913: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:21:45,917: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:24:51,543: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:25:28,393: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:25:28,412: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:25:28,415: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:25:28,416: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:33:54,345: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:33:54,905: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:33:54,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:33:54,915: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:33:54,916: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:36:58,444: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:37:02,398: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
+[2024-04-16 20:37:02,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:37:02,413: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:37:02,413: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:37:02,413: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:37:36,676: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    modeltrainer.main()
+  File "c:\users\n ramaraju\desktop\github actions a4\text_summarization\src\Text_Summarizer\pipeline\stage_04_model_trainer.py", line 11, in main
+    model_trainer_config.train()
+  File "c:\users\n ramaraju\desktop\github actions a4\text_summarization\src\Text_Summarizer\components\model_trainer.py", line 23, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 124, in __init__
+  File "C:\Users\N Ramaraju\.conda\envs\textS\lib\site-packages\transformers\training_args.py", line 1434, in __post_init__
+    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2024-04-16 20:39:11,387: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:39:15,299: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
+[2024-04-16 20:39:15,299: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:39:15,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:39:15,317: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:39:15,319: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:40:57,184: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:41:00,304: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
+[2024-04-16 20:41:00,304: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:41:00,304: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:41:00,304: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:41:00,316: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:42:41,411: INFO: main: >>>>>>>stage Model Trainer Stage completed <><<<<<<<<]
+[2024-04-16 20:45:32,312: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 20:46:24,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:46:24,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:46:24,437: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:47:50,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:47:50,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:47:50,462: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:49:22,893: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:49:22,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:49:22,898: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:50:13,588: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:50:13,609: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:50:13,609: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:50:13,609: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 20:51:03,222: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 20:51:03,237: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 20:51:03,241: INFO: common: craeted directory at : artifacts]
+[2024-04-16 20:51:03,250: INFO: common: craeted directory at : artifacts/model_evaluation]
+[2024-04-16 20:55:10,542: INFO: rouge_scorer: Using default tokenizer.]
+[2024-04-16 21:07:31,286: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:07:34,998: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
+[2024-04-16 21:07:34,998: ERROR: main: __init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "main.py", line 54, in <module>
+    modelevaluation=ModelEvaluation()
+TypeError: __init__() missing 1 required positional argument: 'config'
+[2024-04-16 21:10:09,859: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:10:11,736: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
+[2024-04-16 21:10:11,736: ERROR: main: __init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "main.py", line 54, in <module>
+    modelevaluation=ModelEvaluation()
+TypeError: __init__() missing 1 required positional argument: 'config'
+[2024-04-16 21:11:03,201: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:11:05,114: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
+[2024-04-16 21:11:05,114: ERROR: main: __init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "main.py", line 54, in <module>
+    modelevaluation=ModelEvaluation()
+TypeError: __init__() missing 1 required positional argument: 'config'
+[2024-04-16 21:13:13,708: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:13:15,541: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
+[2024-04-16 21:13:15,541: ERROR: main: __init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "main.py", line 54, in <module>
+    modelevaluation=ModelEvaluation()
+TypeError: __init__() missing 1 required positional argument: 'config'
+[2024-04-16 21:15:57,056: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:15:59,141: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
+[2024-04-16 21:15:59,141: ERROR: main: __init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "main.py", line 54, in <module>
+    modelevaluation=ModelEvaluation()
+TypeError: __init__() missing 1 required positional argument: 'config'
+[2024-04-16 21:17:18,686: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:17:20,584: INFO: main: *******************]
+[2024-04-16 21:17:20,584: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-04-16 21:17:20,584: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:17:20,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:17:20,602: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:17:20,602: INFO: common: craeted directory at : artifacts/model_evaluation]
+[2024-04-16 21:20:55,133: INFO: rouge_scorer: Using default tokenizer.]
+[2024-04-16 21:20:55,641: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
