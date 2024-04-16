@@ -1,13 +1,17 @@
-
-[2024-04-16 04:33:04,055: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
-[2024-04-16 04:33:04,070: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 04:33:04,070: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts]
-[2024-04-16 04:33:04,070: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 04:33:04,070: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts]
-[2024-04-16 04:33:04,070: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-16 04:33:08,989: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+[2024-04-16 21:33:48,140: INFO: server: Started server process [8964]]
+[2024-04-16 21:33:48,140: INFO: on: Waiting for application startup.]
+[2024-04-16 21:33:48,140: INFO: on: Application startup complete.]
+[2024-04-16 21:33:48,140: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-04-16 21:35:22,952: INFO: config: PyTorch version 2.2.2 available.]
+[2024-04-16 21:35:25,838: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
+[2024-04-16 21:35:25,841: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:35:25,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:35:25,848: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:35:25,851: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:35:25,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:35:25,854: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:35:25,854: INFO: common: craeted directory at : artifacts/data_ingestion]
+[2024-04-16 21:35:34,556: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 7903594
 Cache-Control: max-age=300
@@ -18,358 +22,44 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
+X-GitHub-Request-Id: 635C:2E2E6E:4B74FE:63245B:661EA1C6
 Accept-Ranges: bytes
-Date: Mon, 15 Apr 2024 23:03:06 GMT
+Date: Tue, 16 Apr 2024 16:05:27 GMT
 Via: 1.1 varnish
-X-Served-By: cache-maa10241-MAA
+X-Served-By: cache-maa10246-MAA
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1713222186.744465,VS0,VE705
+X-Timer: S1713283527.889519,VS0,VE731
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 9140fd3ab90e1d2816aeee2d0907aeac40b22289
-Expires: Mon, 15 Apr 2024 23:08:06 GMT
+X-Fastly-Request-ID: 3a802f1ed123090f6e71a617f7c0d8d670648ddb
+Expires: Tue, 16 Apr 2024 16:10:27 GMT
 Source-Age: 0
 
 ]
-[2024-04-16 04:33:09,152: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
-[2024-04-16 04:51:35,554: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 04:51:35,570: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 04:51:35,570: INFO: common: craeted directory at : artifacts]
-[2024-04-16 04:51:35,570: INFO: common: craeted directory at : artifacts/data_validaton]
-[2024-04-16 05:05:18,498: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
-[2024-04-16 05:05:18,498: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:05:18,498: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:05:18,498: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:05:18,498: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:05:18,498: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:05:18,498: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:05:18,498: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-16 05:05:22,615: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 7903594
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
-Accept-Ranges: bytes
-Date: Mon, 15 Apr 2024 23:35:20 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10248-MAA
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1713224120.107973,VS0,VE257
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 28415efce0a16d8ae0697c6a046dc9a510434393
-Expires: Mon, 15 Apr 2024 23:40:20 GMT
-Source-Age: 0
-
-]
-[2024-04-16 05:05:22,772: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
-[2024-04-16 05:05:22,772: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:05:22,772: ERROR: main: main() takes 0 positional arguments but 1 was given]
-Traceback (most recent call last):
-  File "main.py", line 21, in <module>
-    datavalidation.main()
-TypeError: main() takes 0 positional arguments but 1 was given
-[2024-04-16 05:12:10,025: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
-[2024-04-16 05:12:10,040: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:12:10,040: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:12:10,040: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:12:10,046: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:12:10,047: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:12:10,047: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:12:10,049: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-16 05:12:13,992: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 7903594
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
-Accept-Ranges: bytes
-Date: Mon, 15 Apr 2024 23:42:12 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10242-MAA
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1713224532.750789,VS0,VE261
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 0ba1fc3de3d0bf3cc62676e71e6cfaf315d4900e
-Expires: Mon, 15 Apr 2024 23:47:12 GMT
-Source-Age: 0
-
-]
-[2024-04-16 05:12:14,150: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
-[2024-04-16 05:12:14,151: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:12:14,151: ERROR: main: main() takes 0 positional arguments but 1 was given]
-Traceback (most recent call last):
-  File "main.py", line 21, in <module>
-    datavalidation.main()
-TypeError: main() takes 0 positional arguments but 1 was given
-[2024-04-16 05:12:48,147: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:12:48,147: ERROR: main: main() takes 0 positional arguments but 1 was given]
-Traceback (most recent call last):
-  File "main.py", line 21, in <module>
-    datavalidation.main()
-TypeError: main() takes 0 positional arguments but 1 was given
-[2024-04-16 05:13:51,558: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:13:51,558: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
-[2024-04-16 05:14:18,466: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:14:18,466: ERROR: main: main() takes 0 positional arguments but 1 was given]
-Traceback (most recent call last):
-  File "main.py", line 21, in <module>
-    datavalidation.main()
-TypeError: main() takes 0 positional arguments but 1 was given
-[2024-04-16 05:15:03,615: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:15:03,625: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:15:03,625: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:15:03,625: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:15:03,625: INFO: common: craeted directory at : artifacts/data_validaton]
-[2024-04-16 05:15:03,632: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
-[2024-04-16 05:15:25,924: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
-[2024-04-16 05:15:25,924: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:15:25,924: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:15:25,924: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:15:25,924: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:15:25,924: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:15:25,937: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:15:25,937: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-16 05:15:30,317: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 7903594
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
-Accept-Ranges: bytes
-Date: Mon, 15 Apr 2024 23:45:27 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10220-MAA
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1713224728.503054,VS0,VE1
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 6c08014d3a8df06bfc17f863ca4c2cb030de866d
-Expires: Mon, 15 Apr 2024 23:50:27 GMT
-Source-Age: 195
-
-]
-[2024-04-16 05:15:30,448: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
-[2024-04-16 05:15:30,448: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:15:30,448: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:15:30,448: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:15:30,448: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:15:30,448: INFO: common: craeted directory at : artifacts/data_validaton]
-[2024-04-16 05:15:30,466: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
-[2024-04-16 05:24:21,804: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 05:26:23,092: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:26:23,092: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:27:53,545: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:27:53,545: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:27:53,545: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:27:53,545: INFO: common: craeted directory at : artifacts/data_transformation]
-[2024-04-16 05:35:24,281: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 05:35:24,670: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<<<<]
-[2024-04-16 05:35:24,670: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:35:24,670: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:35:24,670: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:35:24,670: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:35:24,670: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:35:24,683: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:35:24,684: INFO: common: craeted directory at : artifacts/data_ingestion]
-[2024-04-16 05:35:41,467: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 7903594
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 754A:3A2D7A:25D0AC:33A7B7:661DB227
-Accept-Ranges: bytes
-Date: Tue, 16 Apr 2024 00:05:26 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10229-MAA
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1713225926.389731,VS0,VE276
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: ad0c0619c325b72ee6315eb66f71c5a39e038fce
-Expires: Tue, 16 Apr 2024 00:10:26 GMT
-Source-Age: 0
-
-]
-[2024-04-16 05:35:41,603: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
-[2024-04-16 05:35:41,603: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
-[2024-04-16 05:35:41,603: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:35:41,603: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:35:41,603: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:35:41,603: INFO: common: craeted directory at : artifacts/data_validaton]
-[2024-04-16 05:35:41,618: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
-[2024-04-16 05:35:41,618: INFO: main: >>>>> stage Data Transformation Stage started <<<<<<<<]
-[2024-04-16 05:35:41,618: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 05:35:41,618: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 05:35:41,629: INFO: common: craeted directory at : artifacts]
-[2024-04-16 05:35:41,631: INFO: common: craeted directory at : artifacts/data_transformation]
-[2024-04-16 05:35:46,901: INFO: main: >>>>>>>stage Data Transformation Stage completed <><<<<<<<<]
-[2024-04-16 19:57:11,667: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 19:59:54,761: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 19:59:54,770: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 19:59:54,780: INFO: common: craeted directory at : artifacts]
-[2024-04-16 19:59:54,782: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:02:25,151: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:02:25,155: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:02:25,156: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:02:25,158: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:13:57,845: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:13:57,866: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:13:57,869: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:13:57,872: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:17:28,718: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:17:28,727: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:17:28,734: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:17:28,736: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:18:53,709: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:18:53,730: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:18:53,736: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:18:53,739: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:21:04,250: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:21:45,907: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:21:45,913: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:21:45,913: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:21:45,917: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:24:51,543: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:25:28,393: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:25:28,412: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:25:28,415: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:25:28,416: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:33:54,345: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:33:54,905: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:33:54,913: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:33:54,915: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:33:54,916: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:36:58,444: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:37:02,398: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
-[2024-04-16 20:37:02,398: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:37:02,413: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:37:02,413: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:37:02,413: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:37:36,676: ERROR: main: '>' not supported between instances of 'str' and 'int']
-Traceback (most recent call last):
-  File "main.py", line 45, in <module>
-    modeltrainer.main()
-  File "c:\users\n ramaraju\desktop\github actions a4\text_summarization\src\Text_Summarizer\pipeline\stage_04_model_trainer.py", line 11, in main
-    model_trainer_config.train()
-  File "c:\users\n ramaraju\desktop\github actions a4\text_summarization\src\Text_Summarizer\components\model_trainer.py", line 23, in train
-    trainer_args = TrainingArguments(
-  File "<string>", line 124, in __init__
-  File "C:\Users\N Ramaraju\.conda\envs\textS\lib\site-packages\transformers\training_args.py", line 1434, in __post_init__
-    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
-TypeError: '>' not supported between instances of 'str' and 'int'
-[2024-04-16 20:39:11,387: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:39:15,299: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
-[2024-04-16 20:39:15,299: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:39:15,313: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:39:15,317: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:39:15,319: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:40:57,184: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:41:00,304: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
-[2024-04-16 20:41:00,304: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:41:00,304: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:41:00,304: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:41:00,316: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:42:41,411: INFO: main: >>>>>>>stage Model Trainer Stage completed <><<<<<<<<]
-[2024-04-16 20:45:32,312: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 20:46:24,433: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:46:24,437: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:46:24,437: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:47:50,457: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:47:50,461: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:47:50,462: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:49:22,893: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:49:22,896: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:49:22,898: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:50:13,588: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:50:13,609: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:50:13,609: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:50:13,609: INFO: common: craeted directory at : artifacts/model_trainer]
-[2024-04-16 20:51:03,222: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 20:51:03,237: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 20:51:03,241: INFO: common: craeted directory at : artifacts]
-[2024-04-16 20:51:03,250: INFO: common: craeted directory at : artifacts/model_evaluation]
-[2024-04-16 20:55:10,542: INFO: rouge_scorer: Using default tokenizer.]
-[2024-04-16 21:07:31,286: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:07:34,998: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
-[2024-04-16 21:07:34,998: ERROR: main: __init__() missing 1 required positional argument: 'config']
-Traceback (most recent call last):
-  File "main.py", line 54, in <module>
-    modelevaluation=ModelEvaluation()
-TypeError: __init__() missing 1 required positional argument: 'config'
-[2024-04-16 21:10:09,859: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:10:11,736: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
-[2024-04-16 21:10:11,736: ERROR: main: __init__() missing 1 required positional argument: 'config']
-Traceback (most recent call last):
-  File "main.py", line 54, in <module>
-    modelevaluation=ModelEvaluation()
-TypeError: __init__() missing 1 required positional argument: 'config'
-[2024-04-16 21:11:03,201: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:11:05,114: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
-[2024-04-16 21:11:05,114: ERROR: main: __init__() missing 1 required positional argument: 'config']
-Traceback (most recent call last):
-  File "main.py", line 54, in <module>
-    modelevaluation=ModelEvaluation()
-TypeError: __init__() missing 1 required positional argument: 'config'
-[2024-04-16 21:13:13,708: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:13:15,541: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
-[2024-04-16 21:13:15,541: ERROR: main: __init__() missing 1 required positional argument: 'config']
-Traceback (most recent call last):
-  File "main.py", line 54, in <module>
-    modelevaluation=ModelEvaluation()
-TypeError: __init__() missing 1 required positional argument: 'config'
-[2024-04-16 21:15:57,056: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:15:59,141: INFO: main: >>>>> stage Model Evaluation Stage started <<<<<<<<]
-[2024-04-16 21:15:59,141: ERROR: main: __init__() missing 1 required positional argument: 'config']
-Traceback (most recent call last):
-  File "main.py", line 54, in <module>
-    modelevaluation=ModelEvaluation()
-TypeError: __init__() missing 1 required positional argument: 'config'
-[2024-04-16 21:17:18,686: INFO: config: PyTorch version 2.2.2 available.]
-[2024-04-16 21:17:20,584: INFO: main: *******************]
-[2024-04-16 21:17:20,584: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
-[2024-04-16 21:17:20,584: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-16 21:17:20,601: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-16 21:17:20,602: INFO: common: craeted directory at : artifacts]
-[2024-04-16 21:17:20,602: INFO: common: craeted directory at : artifacts/model_evaluation]
-[2024-04-16 21:20:55,133: INFO: rouge_scorer: Using default tokenizer.]
-[2024-04-16 21:20:55,641: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
-
-x==========x]
+[2024-04-16 21:35:34,729: INFO: main: >>>>>>>stage Data Ingestion Stage completed <><<<<<<<<]
+[2024-04-16 21:35:34,730: INFO: main: >>>>> stage Data Validation Stage started <<<<<<<<]
+[2024-04-16 21:35:34,734: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:35:34,737: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:35:34,738: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:35:34,739: INFO: common: craeted directory at : artifacts/data_validaton]
+[2024-04-16 21:35:34,742: INFO: main: >>>>>>>stage Data Validation Stage completed <><<<<<<<<]
+[2024-04-16 21:35:34,743: INFO: main: >>>>> stage Data Transformation Stage started <<<<<<<<]
+[2024-04-16 21:35:34,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:35:34,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:35:34,758: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:35:34,764: INFO: common: craeted directory at : artifacts/data_transformation]
+[2024-04-16 21:35:40,285: INFO: main: >>>>>>>stage Data Transformation Stage completed <><<<<<<<<]
+[2024-04-16 21:35:40,286: INFO: main: >>>>> stage Model Trainer Stage started <<<<<<<<]
+[2024-04-16 21:35:40,290: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:35:40,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:35:40,299: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:35:40,300: INFO: common: craeted directory at : artifacts/model_trainer]
+[2024-04-16 21:37:46,244: INFO: main: >>>>>>>stage Model Trainer Stage completed <><<<<<<<<]
+[2024-04-16 21:37:46,244: INFO: main: *******************]
+[2024-04-16 21:37:46,244: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-04-16 21:37:46,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-16 21:37:46,329: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-16 21:37:46,332: INFO: common: craeted directory at : artifacts]
+[2024-04-16 21:37:46,334: INFO: common: craeted directory at : artifacts/model_evaluation]
