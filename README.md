@@ -14,8 +14,8 @@
 
 ## Dataset
 
-```
-https://github.com/Harshithvarma007/Datasets/blob/main/summarizer-data.zip
+```[
+Dataset](https://github.com/Harshithvarma007/Datasets/raw/main/summarizer-data.zip)
 ```
 
 ## STEPS:
